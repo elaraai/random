@@ -1,8 +1,8 @@
 {
   "compilerOptions": {
-    "target": "es2016",
-    "lib": ["esnext"],
-    "module": "ES2020",
+    "module": "commonjs",
+    "outDir": "dist",
+    "target": "es2021",
     "moduleResolution": "node",
     "allowJs": true,
     "declaration": true,
@@ -11,5 +11,5 @@
     "forceConsistentCasingInFileNames": true
   },
   "include": ["**/*.ts"],
-  "exclude": ["node_modules", "test"]
+  "exclude": ["node_modules", "test", "dist"]
 }
